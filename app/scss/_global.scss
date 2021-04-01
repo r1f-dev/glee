@@ -100,3 +100,10 @@ address {
     background-color: $blue-hover;
   }
 }
+
+a:focus,
+button:focus {
+  outline: 5px solid $blue;
+  outline-style: double;
+  outline-offset: 10px;
+}

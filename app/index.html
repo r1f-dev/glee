@@ -52,22 +52,22 @@
       </nav>
       <div class="header__icons menu">
         <a class="menu__search" href="#">
-          <div class="menu__search-icon"></div>
+          <div class="menu__search-icon"><span class="sr-only">search icon</span></div>
         </a>
         <div class="menu__numbers">
           <a class="menu__likes" href="#">
-            <span class="menu__likes-num">
+            <span class="menu__likes-num"><span class="sr-only">heart icon with number of liked items</span>
               7
             </span>
           </a>
           <span class="menu__line"></span>
           <a class="menu__cart" href="#">
-            <span class="menu__cart-num">
+            <span class="menu__cart-num"><span class="sr-only">cart icon with numbers of added items</span>
               3
             </span>
           </a>
         </div>
-        <a class="menu__dots" href="#">
+        <a class="menu__dots" href="#"><span class="sr-only">Idk what that icon will do</span>
         </a>
       </div>
     </div>
@@ -127,7 +127,7 @@
                   Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 </p>
                 <a class="top-slider__link btn" href="#">
-                  Shop now
+                  Shop now<span class="sr-only">Link to catalog</span>
                   <span class="top-slider__arrow"></span>
                 </a>
               </div>
@@ -178,6 +178,154 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="container products__container">
+      <section class="products">
+        <h2 class="products__title">
+          Products of the week
+        </h2>
+        <ul class="products__buttons filter-btns">
+          <li class="filter-btns__item">
+            <button class="filter-btns__btn" type="button" data-filter="all">
+              All
+            </button>
+          </li>
+          <li class="filter-btns__item">
+            <button class="filter-btns__btn" type="button" data-filter=".category-a">
+              Furnitures
+            </button>
+          </li>
+          <li class="filter-btns__item">
+            <button class="filter-btns__btn" type="button" data-filter=".category-b">
+              Chairs
+            </button>
+          </li>
+          <li class="filter-btns__item">
+            <button class="filter-btns__btn" type="button" data-filter=".category-c">
+              Lighting
+            </button>
+          </li>
+          <li class="filter-btns__item">
+            <button class="filter-btns__btn" type="button" data-filter=".category-d">
+              Decor
+            </button>
+          </li>
+        </ul>
+        <ul class="products__items">
+          <li class="products__item mix category-a">
+            <img class="products__img" src="images/products1.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"><span class="sr-only">search icon</span></a>
+              <a class="products__icon products__icons--cart" href="#"><span class="sr-only">cart icon</span></a>
+              <a class="products__icon products__icons--heart" href="#"><span class="sr-only">heart icon</span></a>
+            </div>
+          </li>
+          <li class="products__item mix category-b category-c">
+            <img class="products__img" src="images/products2.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-b">
+            <img class="products__img" src="images/products3.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-a">
+            <img class="products__img" src="images/products4.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-a">
+            <img class="products__img" src="images/products5.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-b">
+            <img class="products__img" src="images/products6.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-c">
+            <img class="products__img" src="images/products7.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+          <li class="products__item mix category-d">
+            <img class="products__img" src="images/products8.png" alt="product">
+            <div class="products__item-text">
+              <p class="products__item-title">
+                Wooden radio
+              </p>
+              <span class="products__item-price">$29.00</span>
+            </div>
+            <div class="products__icons">
+              <a class="products__icon products__icons--search" href="#"></a>
+              <a class="products__icon products__icons--cart" href="#"></a>
+              <a class="products__icon products__icons--heart" href="#"></a>
+            </div>
+          </li>
+        </ul>
+      </section>
     </div>
   </main>
   <footer class="footer">
@@ -236,7 +384,8 @@
           </p>
           <form class="footer__form" action="#">
             <input class="footer__input" type="email" name="email" placeholder="Email adress">
-            <button class="btn footer__btn" type="submit">Subscribe</button>
+            <button class="btn footer__btn" type="submit">Subscribe<span class="sr-only">Subscribe
+                button</span></button>
           </form>
         </div>
       </div>
